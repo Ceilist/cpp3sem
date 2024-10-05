@@ -238,6 +238,45 @@ build HW2_4.exe: CXX_EXECUTABLE_LINKER__HW2_4_Debug CMakeFiles/HW2_4.dir/14.09/H
   TARGET_IMPLIB = libHW2_4.dll.a
   TARGET_PDB = HW2_4.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target HW3
+
+
+#############################################
+# Order-only phony target for HW3
+
+build cmake_object_order_depends_target_HW3: phony || .
+
+build CMakeFiles/HW3.dir/13.10/HW3_1.cpp.obj: CXX_COMPILER__HW3_unscanned_Debug D$:/MIPT/cpp3sem/13.10/HW3_1.cpp || cmake_object_order_depends_target_HW3
+  DEP_FILE = CMakeFiles\HW3.dir\13.10\HW3_1.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\HW3.dir
+  OBJECT_FILE_DIR = CMakeFiles\HW3.dir\13.10
+
+build CMakeFiles/HW3.dir/13.10/HW3_2.cpp.obj: CXX_COMPILER__HW3_unscanned_Debug D$:/MIPT/cpp3sem/13.10/HW3_2.cpp || cmake_object_order_depends_target_HW3
+  DEP_FILE = CMakeFiles\HW3.dir\13.10\HW3_2.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\HW3.dir
+  OBJECT_FILE_DIR = CMakeFiles\HW3.dir\13.10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target HW3
+
+
+#############################################
+# Link the executable HW3.exe
+
+build HW3.exe: CXX_EXECUTABLE_LINKER__HW3_Debug CMakeFiles/HW3.dir/13.10/HW3_1.cpp.obj CMakeFiles/HW3.dir/13.10/HW3_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\HW3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = HW3.exe
+  TARGET_IMPLIB = libHW3.dll.a
+  TARGET_PDB = HW3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -274,6 +313,8 @@ build HW2_3: phony HW2_3.exe
 
 build HW2_4: phony HW2_4.exe
 
+build HW3: phony HW3.exe
+
 build cpp3sem: phony cpp3sem.exe
 
 # =============================================================================
@@ -284,7 +325,7 @@ build cpp3sem: phony cpp3sem.exe
 #############################################
 # Folder: D:/MIPT/cpp3sem/cmake-build-debug
 
-build all: phony cpp3sem.exe HW1.exe HW2_1.exe HW2_2.exe HW2_3.exe HW2_4.exe
+build all: phony cpp3sem.exe HW1.exe HW2_1.exe HW2_2.exe HW2_3.exe HW2_4.exe HW3.exe
 
 # =============================================================================
 # Built-in targets

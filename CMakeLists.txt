@@ -9,3 +9,5 @@ add_executable(cpp3sem main.cpp)
     add_executable(HW2_2 14.09/HW2_2.cpp)
     add_executable(HW2_3 14.09/HW2_3.cpp)
     add_executable(HW2_4 14.09/HW2_4.cpp)
+    add_executable(HW3 13.10/HW3_1.cpp
+                    13.10/HW3_2.cpp)
