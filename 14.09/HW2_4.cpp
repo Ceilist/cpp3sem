@@ -10,7 +10,7 @@ int main() {
 
     int count = 0;
 
-    for (unsigned i{}; i <= first.length() - second.length();) {
+    for (int i; i <= first.length() - second.length();) {
         size_t position = first.find(second, i);
         if (position == string::npos) break;
         ++count;
