@@ -239,43 +239,136 @@ build HW2_4.exe: CXX_EXECUTABLE_LINKER__HW2_4_Debug CMakeFiles/HW2_4.dir/14.09/H
   TARGET_PDB = HW2_4.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target HW3
+# Object build statements for EXECUTABLE target HW3_1
 
 
 #############################################
-# Order-only phony target for HW3
+# Order-only phony target for HW3_1
 
-build cmake_object_order_depends_target_HW3: phony || .
+build cmake_object_order_depends_target_HW3_1: phony || .
 
-build CMakeFiles/HW3.dir/13.10/HW3_1.cpp.obj: CXX_COMPILER__HW3_unscanned_Debug D$:/MIPT/cpp3sem/13.10/HW3_1.cpp || cmake_object_order_depends_target_HW3
-  DEP_FILE = CMakeFiles\HW3.dir\13.10\HW3_1.cpp.obj.d
+build CMakeFiles/HW3_1.dir/13.10/HW3_1.cpp.obj: CXX_COMPILER__HW3_1_unscanned_Debug D$:/MIPT/cpp3sem/13.10/HW3_1.cpp || cmake_object_order_depends_target_HW3_1
+  DEP_FILE = CMakeFiles\HW3_1.dir\13.10\HW3_1.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\HW3.dir
-  OBJECT_FILE_DIR = CMakeFiles\HW3.dir\13.10
-
-build CMakeFiles/HW3.dir/13.10/HW3_2.cpp.obj: CXX_COMPILER__HW3_unscanned_Debug D$:/MIPT/cpp3sem/13.10/HW3_2.cpp || cmake_object_order_depends_target_HW3
-  DEP_FILE = CMakeFiles\HW3.dir\13.10\HW3_2.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\HW3.dir
-  OBJECT_FILE_DIR = CMakeFiles\HW3.dir\13.10
+  OBJECT_DIR = CMakeFiles\HW3_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\HW3_1.dir\13.10
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target HW3
+# Link build statements for EXECUTABLE target HW3_1
 
 
 #############################################
-# Link the executable HW3.exe
+# Link the executable HW3_1.exe
 
-build HW3.exe: CXX_EXECUTABLE_LINKER__HW3_Debug CMakeFiles/HW3.dir/13.10/HW3_1.cpp.obj CMakeFiles/HW3.dir/13.10/HW3_2.cpp.obj
+build HW3_1.exe: CXX_EXECUTABLE_LINKER__HW3_1_Debug CMakeFiles/HW3_1.dir/13.10/HW3_1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\HW3.dir
+  OBJECT_DIR = CMakeFiles\HW3_1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = HW3.exe
-  TARGET_IMPLIB = libHW3.dll.a
-  TARGET_PDB = HW3.exe.dbg
+  TARGET_FILE = HW3_1.exe
+  TARGET_IMPLIB = libHW3_1.dll.a
+  TARGET_PDB = HW3_1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target HW3_2
+
+
+#############################################
+# Order-only phony target for HW3_2
+
+build cmake_object_order_depends_target_HW3_2: phony || .
+
+build CMakeFiles/HW3_2.dir/13.10/HW3_2.cpp.obj: CXX_COMPILER__HW3_2_unscanned_Debug D$:/MIPT/cpp3sem/13.10/HW3_2.cpp || cmake_object_order_depends_target_HW3_2
+  DEP_FILE = CMakeFiles\HW3_2.dir\13.10\HW3_2.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\HW3_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\HW3_2.dir\13.10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target HW3_2
+
+
+#############################################
+# Link the executable HW3_2.exe
+
+build HW3_2.exe: CXX_EXECUTABLE_LINKER__HW3_2_Debug CMakeFiles/HW3_2.dir/13.10/HW3_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\HW3_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = HW3_2.exe
+  TARGET_IMPLIB = libHW3_2.dll.a
+  TARGET_PDB = HW3_2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target HW4_1
+
+
+#############################################
+# Order-only phony target for HW4_1
+
+build cmake_object_order_depends_target_HW4_1: phony || .
+
+build CMakeFiles/HW4_1.dir/13.10/HW4_1.cpp.obj: CXX_COMPILER__HW4_1_unscanned_Debug D$:/MIPT/cpp3sem/13.10/HW4_1.cpp || cmake_object_order_depends_target_HW4_1
+  DEP_FILE = CMakeFiles\HW4_1.dir\13.10\HW4_1.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\HW4_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\HW4_1.dir\13.10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target HW4_1
+
+
+#############################################
+# Link the executable HW4_1.exe
+
+build HW4_1.exe: CXX_EXECUTABLE_LINKER__HW4_1_Debug CMakeFiles/HW4_1.dir/13.10/HW4_1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\HW4_1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = HW4_1.exe
+  TARGET_IMPLIB = libHW4_1.dll.a
+  TARGET_PDB = HW4_1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target HW4_2
+
+
+#############################################
+# Order-only phony target for HW4_2
+
+build cmake_object_order_depends_target_HW4_2: phony || .
+
+build CMakeFiles/HW4_2.dir/13.10/HW4_2.cpp.obj: CXX_COMPILER__HW4_2_unscanned_Debug D$:/MIPT/cpp3sem/13.10/HW4_2.cpp || cmake_object_order_depends_target_HW4_2
+  DEP_FILE = CMakeFiles\HW4_2.dir\13.10\HW4_2.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\HW4_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\HW4_2.dir\13.10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target HW4_2
+
+
+#############################################
+# Link the executable HW4_2.exe
+
+build HW4_2.exe: CXX_EXECUTABLE_LINKER__HW4_2_Debug CMakeFiles/HW4_2.dir/13.10/HW4_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\HW4_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = HW4_2.exe
+  TARGET_IMPLIB = libHW4_2.dll.a
+  TARGET_PDB = HW4_2.exe.dbg
 
 
 #############################################
@@ -313,7 +406,13 @@ build HW2_3: phony HW2_3.exe
 
 build HW2_4: phony HW2_4.exe
 
-build HW3: phony HW3.exe
+build HW3_1: phony HW3_1.exe
+
+build HW3_2: phony HW3_2.exe
+
+build HW4_1: phony HW4_1.exe
+
+build HW4_2: phony HW4_2.exe
 
 build cpp3sem: phony cpp3sem.exe
 
@@ -325,7 +424,7 @@ build cpp3sem: phony cpp3sem.exe
 #############################################
 # Folder: D:/MIPT/cpp3sem/cmake-build-debug
 
-build all: phony cpp3sem.exe HW1.exe HW2_1.exe HW2_2.exe HW2_3.exe HW2_4.exe HW3.exe
+build all: phony cpp3sem.exe HW1.exe HW2_1.exe HW2_2.exe HW2_3.exe HW2_4.exe HW3_1.exe HW3_2.exe HW4_1.exe HW4_2.exe
 
 # =============================================================================
 # Built-in targets

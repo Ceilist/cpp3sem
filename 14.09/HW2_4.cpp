@@ -8,6 +8,7 @@ int main() {
     cin >> first;
     cin >> second;
 
+
     int count = 0;
 
     for (int i; i <= first.length() - second.length();) {
