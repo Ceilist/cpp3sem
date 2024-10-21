@@ -1,6 +1,8 @@
 ﻿#include <chrono>
 #include <string>
 #include <stdexcept>
+#include <iostream>
+#include <windows.h>
 using namespace std;
 
 class Time {
@@ -39,18 +41,19 @@ public:
         seconds = s;
     };
 
-    Time operator +=(Time t) {
+    Time& operator +=(Time t) {
         hours += t.hours;
         minutes += t.minutes;
         seconds += t.seconds;
         normalize();
     }
 
-    Time operator +=(int a) {
+    Time& operator +=(int a) {
         hours += a;
         normalize();
     }
-    Time operator -=(int a) {
+
+    Time& operator -=(int a) {
         hours -= a;
         normalize();
     }
@@ -58,10 +61,22 @@ public:
     bool checkday() {
         normalize();
         if (hours >= 24) {
-            hours-=24;
+            hours -= 24;
             return true;
         }
         return false;
+    }
+
+    bool checkstudy() {
+        if (hours >= 12) {
+            return true;
+        }
+        return false;
+    }
+
+    int *output() {
+        static int a[3]{hours, minutes, seconds};
+        return a;
     }
 };
 
@@ -79,7 +94,8 @@ private:
 public:
     int grade;
 
-    Student(string Name, string Surname, int Group, int XP, int Money, Time Stud_time) : name{Name}, surname{Surname} {
+    Student(string Name, string Surname, unsigned Group, int XP, int Money, Time Stud_time)
+        : name{Name}, surname{Surname} {
         group = Group;
         xp = XP;
         money = Money;
@@ -88,7 +104,8 @@ public:
     };
 
     Student(string Name, string Surname, int Group, int XP, int Money, Time Stud_time,
-            int Grade): name{Name}, surname{Surname} {
+            int Grade)
+        : name{Name}, surname{Surname} {
         group = Group;
         xp = XP;
         money = Money;
@@ -105,39 +122,83 @@ public:
     void study(int hours, int XP) {
         stud_time += hours;
         xp -= 30 * XP;
-        time+=hours;
+        time += hours;
+        if (xp <= 0) {
+            delete this;
+        }
     }
 
     void sleep(int hours, int XP) {
         if (hours >= 6) {
             stud_time = {0, 0, 0};
         } else {
-            stud_time -= hours/2;
+            stud_time -= hours / 2;
         }
-        time+=hours;
+        time += hours;
         time.checkday();
         xp += 100 * XP;
     }
-    void work(int hours, int Money, int XP) {
-        money+=Money;
-        time+=hours;
-        if (time.checkday()) {
-            xp-=3*XP;
 
+    void work(int hours, int Money, int XP) {
+        money += Money;
+        time += hours;
+        if (time.checkday()) {
+            xp -= 3 * XP;
         } else {
-            xp-=XP;
+            xp -= XP;
+        }
+        if (xp <= 0) {
+            delete this;
         }
     }
-     void party(int hours, int XP, int Money) {
-        if (money-Money<=0) {
+
+    void party(int hours, int XP, int Money) {
+        if (money <Money) {
             throw out_of_range("No money, go to work!");
         }
-        money-=Money;
-        time+=hours;
-        if (time.checkday()) {
+        money -= Money;
+        time += hours;
+        if (time.checkday() or stud_time.checkstudy()) {
+            xp += XP / 3;
+        } else {
+            xp += XP;
+        }
+    }
+
+    int getXP() {
+        return xp;
+    }
+
+    int getMoney() {
+        return money;
+    }
+
+    int getTime() {
+        return *time.output();
+    }
+
+    ~Student() {
+        cout << "Вы проиграли. Студент ушел в академ.";
+    }
+
+    void getInfo() {
+        cout << "Имя: " << name << endl;
+        cout << "Фамилия: " << surname << endl;
+        cout << "Группа: " << group << endl;
+        cout << "Опыт (XP): " << xp << endl;
+        cout << "Количество денег: " << money << endl;
+        cout << stud_time.output() << endl;
+        cout << time.output() << endl;
     }
 };
 
 int main() {
-    Time time(25, 40, 10);
+    SetConsoleOutputCP(CP_UTF8);
+    Student Mikhail("Mikhail", "Zotov", 301, 1000, 100000, Time());
+
+
+    Mikhail.sleep(0, 200);
+    cout<<Mikhail.getXP();
+
+    exit(0);
 }
