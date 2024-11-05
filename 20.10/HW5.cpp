@@ -1,5 +1,4 @@
-﻿#include <chrono>
-#include <string>
+﻿#include <string>
 #include <stdexcept>
 #include <iostream>
 #include <windows.h>
@@ -135,7 +134,6 @@ public:
             stud_time -= hours / 2;
         }
         time += hours;
-        time.checkday();
         xp += 100 * XP;
     }
 
@@ -153,7 +151,7 @@ public:
     }
 
     void party(int hours, int XP, int Money) {
-        if (money <Money) {
+        if (money < Money) {
             throw out_of_range("No money, go to work!");
         }
         money -= Money;

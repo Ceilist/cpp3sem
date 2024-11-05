@@ -403,6 +403,39 @@ build HW5.exe: CXX_EXECUTABLE_LINKER__HW5_Debug CMakeFiles/HW5.dir/20.10/HW5.cpp
   TARGET_IMPLIB = libHW5.dll.a
   TARGET_PDB = HW5.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target HW6
+
+
+#############################################
+# Order-only phony target for HW6
+
+build cmake_object_order_depends_target_HW6: phony || .
+
+build CMakeFiles/HW6.dir/6.11/HW6.cpp.obj: CXX_COMPILER__HW6_unscanned_Debug D$:/MIPT/cpp3sem/6.11/HW6.cpp || cmake_object_order_depends_target_HW6
+  DEP_FILE = CMakeFiles\HW6.dir\6.11\HW6.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\HW6.dir
+  OBJECT_FILE_DIR = CMakeFiles\HW6.dir\6.11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target HW6
+
+
+#############################################
+# Link the executable HW6.exe
+
+build HW6.exe: CXX_EXECUTABLE_LINKER__HW6_Debug CMakeFiles/HW6.dir/6.11/HW6.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\HW6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = HW6.exe
+  TARGET_IMPLIB = libHW6.dll.a
+  TARGET_PDB = HW6.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -449,6 +482,8 @@ build HW4_2: phony HW4_2.exe
 
 build HW5: phony HW5.exe
 
+build HW6: phony HW6.exe
+
 build cpp3sem: phony cpp3sem.exe
 
 # =============================================================================
@@ -459,7 +494,7 @@ build cpp3sem: phony cpp3sem.exe
 #############################################
 # Folder: D:/MIPT/cpp3sem/cmake-build-debug
 
-build all: phony cpp3sem.exe HW1.exe HW2_1.exe HW2_2.exe HW2_3.exe HW2_4.exe HW3_1.exe HW3_2.exe HW4_1.exe HW4_2.exe HW5.exe
+build all: phony cpp3sem.exe HW1.exe HW2_1.exe HW2_2.exe HW2_3.exe HW2_4.exe HW3_1.exe HW3_2.exe HW4_1.exe HW4_2.exe HW5.exe HW6.exe
 
 # =============================================================================
 # Built-in targets

@@ -12,10 +12,10 @@ int main() {
 
     int count = 0;
 
-    for (int i; i <= first.length() - second.length();) {
+    for (int i = 0; i <= first.length() - second.length();) {
         size_t position = first.find(second, i);
         if (position == string::npos) break;
-        ++count;
+        count++;
         i = position + 1;
     }
     cout << count << endl;
