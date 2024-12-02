@@ -26,7 +26,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -52,7 +53,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -133,6 +135,13 @@
 					"id" : "HW6::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-HW6-Debug-6b802bbcd5ca813dc9d1.json",
 					"name" : "HW6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HW7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HW7-Debug-da6913b26d8e65e1cf5b.json",
+					"name" : "HW7",
 					"projectIndex" : 0
 				},
 				{

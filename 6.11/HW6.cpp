@@ -7,8 +7,7 @@ class Animal {
     int health;
 
 protected:
-    ~Animal() {
-    } // нужен для очищения памяти при заполнении динамического массива
+
     string const name;
     string const breed;
     int age;
@@ -25,7 +24,6 @@ public:
         age = Age;
         health = 100;
     };
-
     virtual void makeSound() = 0;
 
     void getInfo() {
@@ -79,6 +77,7 @@ public:
     }
 
     ~Owner() {
+        delete *pets;
         delete[] pets;
     }
 
