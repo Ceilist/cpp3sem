@@ -41,8 +41,8 @@ public:
 };
 
 // Определение типов заклинаний
-const char fire[] = "Attack";
-const char shield[] = "Defensive";
+const char atk[] = "Attack";
+const char def[] = "Defensive";
 
 // Создаем заклинания фабрикой
 class SpellFactory {
@@ -172,8 +172,8 @@ int main() {
         SpellFactory factory;
 
         // Добавление типов заклинаний
-        factory.add<fire>("Attack");
-        factory.add<shield>("Defensive");
+        factory.add<atk>("Attack");
+        factory.add<def>("Defensive");
 
         // Создание книги заклинаний
         SpellBook<SpellGroup> book;
@@ -196,10 +196,10 @@ int main() {
 
         // Удаление группы
         book.removeGroup("Защитные");
-
         // Применение оставшихся заклинаний
         cout << "\nКнига заклинаний после удаления группы:" << endl;
         book.castAll();
+        book.addSpellToGroup("Атакующие", fireball);
     } catch (const exception &e) {
         cerr << "Ошибка: " << e.what() << endl; //Выводим сообщение ошибки
     }
