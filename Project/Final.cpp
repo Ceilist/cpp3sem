@@ -10,8 +10,6 @@
 
 using namespace std;
 
-constexpr int MAX_ARMY_SIZE = 100; // Max army size
-
 // Struct for name and surname
 struct Name {
     string firstName;
@@ -277,7 +275,7 @@ void loadArmy(const string &filename, Character *army[], int &size) {
     string line;
     size = 0;
     while (getline(file, line)) {
-        if (size >= MAX_ARMY_SIZE) {
+        if (size >= 5) {
             throw runtime_error("Превышен максимальный размер армии");
         }
 
@@ -340,8 +338,8 @@ int main() {
     SetConsoleOutputCP(CP_UTF8);
 
     try {
-        Character *army1[MAX_ARMY_SIZE];
-        Character *army2[MAX_ARMY_SIZE];
+        Character *army1[5];
+        Character *army2[5];
         int size2;
         int size1;
         loadArmy("D:/MIPT/cpp3sem/Project/army1.txt", army1, size1); // Insert YOUR filepath
