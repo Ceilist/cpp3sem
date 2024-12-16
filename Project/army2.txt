@@ -1,0 +1,3 @@
+Monster;Troll;150;30
+Warrior;Snake;110;22
+Monster;Goblin;70;12

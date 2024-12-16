@@ -469,6 +469,39 @@ build HW7.exe: CXX_EXECUTABLE_LINKER__HW7_Debug CMakeFiles/HW7.dir/02.12/HW7.cpp
   TARGET_IMPLIB = libHW7.dll.a
   TARGET_PDB = HW7.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Project
+
+
+#############################################
+# Order-only phony target for Project
+
+build cmake_object_order_depends_target_Project: phony || .
+
+build CMakeFiles/Project.dir/Project/Final.cpp.obj: CXX_COMPILER__Project_unscanned_Debug D$:/MIPT/cpp3sem/Project/Final.cpp || cmake_object_order_depends_target_Project
+  DEP_FILE = CMakeFiles\Project.dir\Project\Final.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Project.dir
+  OBJECT_FILE_DIR = CMakeFiles\Project.dir\Project
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Project
+
+
+#############################################
+# Link the executable Project.exe
+
+build Project.exe: CXX_EXECUTABLE_LINKER__Project_Debug CMakeFiles/Project.dir/Project/Final.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Project.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Project.exe
+  TARGET_IMPLIB = libProject.dll.a
+  TARGET_PDB = Project.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -519,6 +552,8 @@ build HW6: phony HW6.exe
 
 build HW7: phony HW7.exe
 
+build Project: phony Project.exe
+
 build cpp3sem: phony cpp3sem.exe
 
 # =============================================================================
@@ -529,7 +564,7 @@ build cpp3sem: phony cpp3sem.exe
 #############################################
 # Folder: D:/MIPT/cpp3sem/cmake-build-debug
 
-build all: phony cpp3sem.exe HW1.exe HW2_1.exe HW2_2.exe HW2_3.exe HW2_4.exe HW3_1.exe HW3_2.exe HW4_1.exe HW4_2.exe HW5.exe HW6.exe HW7.exe
+build all: phony cpp3sem.exe HW1.exe HW2_1.exe HW2_2.exe HW2_3.exe HW2_4.exe HW3_1.exe HW3_2.exe HW4_1.exe HW4_2.exe HW5.exe HW6.exe HW7.exe Project.exe
 
 # =============================================================================
 # Built-in targets

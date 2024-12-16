@@ -1,0 +1,2 @@
+Warrior;MIPT;Student;120;25
+Warrior;MSU;Student;10;1
