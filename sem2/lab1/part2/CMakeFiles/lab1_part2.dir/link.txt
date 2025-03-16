@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lab1_part2.dir/challengind.cpp.o -o lab1_part2  -lvtk 

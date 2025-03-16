@@ -1,0 +1,3 @@
+/mnt/d/mipt/cpp3sem/sem2/lab1/part2/build/CMakeFiles/lab1_part2.dir
+/mnt/d/mipt/cpp3sem/sem2/lab1/part2/build/CMakeFiles/edit_cache.dir
+/mnt/d/mipt/cpp3sem/sem2/lab1/part2/build/CMakeFiles/rebuild_cache.dir
