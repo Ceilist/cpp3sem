@@ -1,0 +1,8 @@
+# ninja log v6
+7	472	7637786741074196	CMakeFiles/lab1_part1.dir/Field.cpp.obj	d8e04889d441f873
+2	492	7637786741014572	CMakeFiles/lab1_part1.dir/main.cpp.obj	a806d9dee59ec4eb
+13	523	7637786741134133	CMakeFiles/lab1_part1.dir/Cloud.cpp.obj	24ed55f1ae31c143
+10	519	7637786741104096	CMakeFiles/lab1_part1.dir/Cow.cpp.obj	efae96419010b932
+562	700	7637787073474738	lab1_part1.exe	3f3a3442759ea1f8
+5	914	7637786741044237	CMakeFiles/lab1_part1.dir/Parser.cpp.obj	d87ba63297ce7470
+5	562	7637787067905785	CMakeFiles/lab1_part1.dir/ASCIIPicture.cpp.obj	b4cea73913ddb7bc
