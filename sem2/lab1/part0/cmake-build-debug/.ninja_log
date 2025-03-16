@@ -1,0 +1,7 @@
+# ninja log v6
+3	1822	7638632786008546	CMakeFiles/matrix_lib.dir/src/matrix.cpp.obj	1157e344206171b
+7	452	7638633084837377	libmatrix_lib.a	48b89d4ceaecd765
+7	734	7638635329497821	CMakeFiles/test1.dir/tests/test1.cpp.obj	8b2813bfaf2a4d3d
+734	877	7638635336774484	test1.exe	39419c522102726a
+7	858	7638639329261599	CMakeFiles/test2.dir/tests/test2.cpp.obj	40106e1daa157c93
+858	1014	7638639337774391	test2.exe	9d7b09fab6af5204

@@ -1,0 +1,5 @@
+/mnt/d/mipt/cpp3sem/sem2/lab1/part0/build/CMakeFiles/matrix_lib.dir
+/mnt/d/mipt/cpp3sem/sem2/lab1/part0/build/CMakeFiles/test1.dir
+/mnt/d/mipt/cpp3sem/sem2/lab1/part0/build/CMakeFiles/test2.dir
+/mnt/d/mipt/cpp3sem/sem2/lab1/part0/build/CMakeFiles/edit_cache.dir
+/mnt/d/mipt/cpp3sem/sem2/lab1/part0/build/CMakeFiles/rebuild_cache.dir

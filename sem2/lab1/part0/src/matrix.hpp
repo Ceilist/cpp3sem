@@ -8,8 +8,7 @@
 #include "subvector.hpp"
 
 template <typename T>
-class Matrix
-{
+class Matrix{
 	subvector<T> data; // какой-то класс вектора: subvector или std::vector
 	// предполагается, что хранение будет происходить в одном линейном массиве,
 	// а не как с двойным указателем
@@ -66,9 +65,9 @@ public:
 	{
 		std::random_device r;
 		std::default_random_engine gen(r());
-		
+
         std::uniform_real_distribution<double> el_d(std::max(double(determinant) / pow(10, n), 0.1), 1.0);
-		
+
         Matrix matrix(n, n, T(0));
 
 		for (unsigned i = 0; i < n; ++i)
