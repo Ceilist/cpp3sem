@@ -12,5 +12,7 @@ D:/MIPT/cpp3sem/cmake-build-debug/CMakeFiles/HW5.dir
 D:/MIPT/cpp3sem/cmake-build-debug/CMakeFiles/HW6.dir
 D:/MIPT/cpp3sem/cmake-build-debug/CMakeFiles/HW7.dir
 D:/MIPT/cpp3sem/cmake-build-debug/CMakeFiles/Project.dir
+D:/MIPT/cpp3sem/cmake-build-debug/CMakeFiles/lab2_1.1.dir
+D:/MIPT/cpp3sem/cmake-build-debug/CMakeFiles/lab2_1.2.dir
 D:/MIPT/cpp3sem/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/MIPT/cpp3sem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
