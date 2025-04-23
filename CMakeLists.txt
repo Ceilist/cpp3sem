@@ -19,5 +19,9 @@ add_executable(cpp3sem main.cpp)
     add_executable(Project Project/Final.cpp)
     add_executable(lab2_1.1 sem2/lab2/1.1.cpp)
     add_executable(lab2_1.2 sem2/lab2/1.2.cpp)
+    add_executable(lab2_2 sem2/lab2/2.cpp)
+    add_executable(lab2_3.2 sem2/lab2/3.2.cpp)
+    add_executable(lab2_4.1 sem2/lab2/4.1.cpp)
+    add_executable(lab2_4.2 sem2/lab2/4.2.cpp)
 
 

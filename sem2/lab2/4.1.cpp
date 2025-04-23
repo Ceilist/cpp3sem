@@ -12,6 +12,10 @@ using namespace std;
 // Работает с итераторами с доступом по индексу
 template<typename random_access_iterator, typename Compare>
 void itersort(random_access_iterator first, random_access_iterator last, Compare comp) {
+    // Проверка итератора
+    static_assert(
+        is_same<typename iterator_traits<random_access_iterator>::iterator_category, random_access_iterator_tag>::value, "not a random access iterator");
+
     if (first == last) return;
 
     for (auto i = first + 1; i != last; ++i) {
@@ -46,25 +50,6 @@ int main() {
     // Работа с функцией и array
     itersort(iter3.begin(), iter3.end(), CompFunc);
 
-    // С функтором и списком не работает, т.к. не подходит тип итератора
+    // Будет 'static assertion failed', т.е. ошибка на этапе компиляции
     // itersort(iter4.begin(), iter4.end(), [](int a, int b) { return a < b; });
-
-    // Засекание времени
-    auto timer = [](auto &container, const string &name) {
-        auto start = chrono::high_resolution_clock::now();
-        itersort(container.begin(), container.end(), greater<int>());
-        auto end = chrono::high_resolution_clock::now();
-        auto duration = chrono::duration_cast<chrono::microseconds>(end - start);
-        cout << name << " sorted in: " << duration.count() << " microseconds " << endl;
-    };
-
-    // Заполним дек и вектор случайными элементами
-    vector<int> vec(10000);
-    deque<int> deq(10000);
-    generate(vec.begin(), vec.end(), []() { return rand(); });
-    generate(deq.begin(), deq.end(), []() { return rand(); });
-
-    timer(vec, "vector");
-    timer(deq, "deque");
-    // Вектор сортируется быстрее т.к. непрерывно хранит данные, а у деки элементы могут быть разбросаны в памяти
 }

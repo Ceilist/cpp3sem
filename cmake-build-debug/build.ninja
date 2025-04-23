@@ -568,6 +568,138 @@ build lab2_1.2.exe: CXX_EXECUTABLE_LINKER__lab2_1.2e2_Debug CMakeFiles/lab2_1.2.
   TARGET_IMPLIB = liblab2_1.2.dll.a
   TARGET_PDB = lab2_1.2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lab2_2
+
+
+#############################################
+# Order-only phony target for lab2_2
+
+build cmake_object_order_depends_target_lab2_2: phony || .
+
+build CMakeFiles/lab2_2.dir/sem2/lab2/2.cpp.obj: CXX_COMPILER__lab2_2_unscanned_Debug D$:/MIPT/cpp3sem/sem2/lab2/2.cpp || cmake_object_order_depends_target_lab2_2
+  DEP_FILE = CMakeFiles\lab2_2.dir\sem2\lab2\2.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab2_2.dir\sem2\lab2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab2_2
+
+
+#############################################
+# Link the executable lab2_2.exe
+
+build lab2_2.exe: CXX_EXECUTABLE_LINKER__lab2_2_Debug CMakeFiles/lab2_2.dir/sem2/lab2/2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab2_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab2_2.exe
+  TARGET_IMPLIB = liblab2_2.dll.a
+  TARGET_PDB = lab2_2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab2_3.2
+
+
+#############################################
+# Order-only phony target for lab2_3.2
+
+build cmake_object_order_depends_target_lab2_3.2: phony || .
+
+build CMakeFiles/lab2_3.2.dir/sem2/lab2/3.2.cpp.obj: CXX_COMPILER__lab2_3.2e2_unscanned_Debug D$:/MIPT/cpp3sem/sem2/lab2/3.2.cpp || cmake_object_order_depends_target_lab2_3.2
+  DEP_FILE = CMakeFiles\lab2_3.2.dir\sem2\lab2\3.2.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab2_3.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab2_3.2.dir\sem2\lab2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab2_3.2
+
+
+#############################################
+# Link the executable lab2_3.2.exe
+
+build lab2_3.2.exe: CXX_EXECUTABLE_LINKER__lab2_3.2e2_Debug CMakeFiles/lab2_3.2.dir/sem2/lab2/3.2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab2_3.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab2_3.2.exe
+  TARGET_IMPLIB = liblab2_3.2.dll.a
+  TARGET_PDB = lab2_3.2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab2_4.1
+
+
+#############################################
+# Order-only phony target for lab2_4.1
+
+build cmake_object_order_depends_target_lab2_4.1: phony || .
+
+build CMakeFiles/lab2_4.1.dir/sem2/lab2/4.1.cpp.obj: CXX_COMPILER__lab2_4.2e1_unscanned_Debug D$:/MIPT/cpp3sem/sem2/lab2/4.1.cpp || cmake_object_order_depends_target_lab2_4.1
+  DEP_FILE = CMakeFiles\lab2_4.1.dir\sem2\lab2\4.1.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab2_4.1.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab2_4.1.dir\sem2\lab2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab2_4.1
+
+
+#############################################
+# Link the executable lab2_4.1.exe
+
+build lab2_4.1.exe: CXX_EXECUTABLE_LINKER__lab2_4.2e1_Debug CMakeFiles/lab2_4.1.dir/sem2/lab2/4.1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab2_4.1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab2_4.1.exe
+  TARGET_IMPLIB = liblab2_4.1.dll.a
+  TARGET_PDB = lab2_4.1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab2_4.2
+
+
+#############################################
+# Order-only phony target for lab2_4.2
+
+build cmake_object_order_depends_target_lab2_4.2: phony || .
+
+build CMakeFiles/lab2_4.2.dir/sem2/lab2/4.2.cpp.obj: CXX_COMPILER__lab2_4.2e2_unscanned_Debug D$:/MIPT/cpp3sem/sem2/lab2/4.2.cpp || cmake_object_order_depends_target_lab2_4.2
+  DEP_FILE = CMakeFiles\lab2_4.2.dir\sem2\lab2\4.2.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab2_4.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab2_4.2.dir\sem2\lab2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab2_4.2
+
+
+#############################################
+# Link the executable lab2_4.2.exe
+
+build lab2_4.2.exe: CXX_EXECUTABLE_LINKER__lab2_4.2e2_Debug CMakeFiles/lab2_4.2.dir/sem2/lab2/4.2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab2_4.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab2_4.2.exe
+  TARGET_IMPLIB = liblab2_4.2.dll.a
+  TARGET_PDB = lab2_4.2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -626,6 +758,14 @@ build lab2_1.1: phony lab2_1.1.exe
 
 build lab2_1.2: phony lab2_1.2.exe
 
+build lab2_2: phony lab2_2.exe
+
+build lab2_3.2: phony lab2_3.2.exe
+
+build lab2_4.1: phony lab2_4.1.exe
+
+build lab2_4.2: phony lab2_4.2.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -634,7 +774,7 @@ build lab2_1.2: phony lab2_1.2.exe
 #############################################
 # Folder: D:/MIPT/cpp3sem/cmake-build-debug
 
-build all: phony cpp3sem.exe HW1.exe HW2_1.exe HW2_2.exe HW2_3.exe HW2_4.exe HW3_1.exe HW3_2.exe HW4_1.exe HW4_2.exe HW5.exe HW6.exe HW7.exe Project.exe lab2_1.1.exe lab2_1.2.exe
+build all: phony cpp3sem.exe HW1.exe HW2_1.exe HW2_2.exe HW2_3.exe HW2_4.exe HW3_1.exe HW3_2.exe HW4_1.exe HW4_2.exe HW5.exe HW6.exe HW7.exe Project.exe lab2_1.1.exe lab2_1.2.exe lab2_2.exe lab2_3.2.exe lab2_4.1.exe lab2_4.2.exe
 
 # =============================================================================
 # Built-in targets
