@@ -14,7 +14,7 @@ template<typename random_access_iterator, typename Compare>
 void itersort(random_access_iterator first, random_access_iterator last, Compare comp) {
     // Проверка итератора
     static_assert(
-        is_same<typename iterator_traits<random_access_iterator>::iterator_category, random_access_iterator_tag>::value, "not a random access iterator");
+        is_same_v<typename iterator_traits<random_access_iterator>::iterator_category, random_access_iterator_tag>, "not a random access iterator");
 
     if (first == last) return;
 

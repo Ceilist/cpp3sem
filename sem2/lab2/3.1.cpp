@@ -4,11 +4,7 @@
 
 using namespace std;
 
-// Объединение двух кортежей на этапе компиляции
-template<typename Tuple1, typename Tuple2>
-constexpr auto tuple_cat_constexpr(const Tuple1 &t1, const Tuple2 &t2) {
-    return tuple_cat(t1, t2);
-}
+
 
 // Выход из рекурсии
 template<typename T, size_t N>
@@ -26,13 +22,13 @@ constexpr auto product(const array<T, N> &arr, const Tail &... rest) {
     const auto rest_product = product(rest...);
 
 
-    array<decltype(tuple_cat_constexpr(make_tuple(arr[0]), rest_product[0])), N * tuple_size_v<decltype(rest_product)>>
+    array<decltype(tuple_cat(make_tuple(arr[0]), rest_product[0])), N * tuple_size_v<decltype(rest_product)>>
             result; // Массив для ответа
 
     size_t idx = 0;
     for (const auto &elem: arr) {
         for (const auto &tuple: rest_product) {
-            result[idx++] = tuple_cat_constexpr(make_tuple(elem), tuple);
+            result[idx++] = tuple_cat(make_tuple(elem), tuple);
         }
     }
 
