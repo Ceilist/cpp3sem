@@ -1,7 +1,7 @@
     cmake_minimum_required(VERSION 3.29)
 project(cpp3sem)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 add_executable(cpp3sem main.cpp)
     add_executable(HW1 08.09/HW1.cpp)
@@ -20,6 +20,7 @@ add_executable(cpp3sem main.cpp)
     add_executable(lab2_1.1 sem2/lab2/1.1.cpp)
     add_executable(lab2_1.2 sem2/lab2/1.2.cpp)
     add_executable(lab2_2 sem2/lab2/2.cpp)
+    add_executable(lab2_3.1 sem2/lab2/3.1.cpp)
     add_executable(lab2_3.2 sem2/lab2/3.2.cpp)
     add_executable(lab2_4.1 sem2/lab2/4.1.cpp)
     add_executable(lab2_4.2 sem2/lab2/4.2.cpp)

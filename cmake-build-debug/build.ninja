@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_cpp3sem: phony || .
 
 build CMakeFiles/cpp3sem.dir/main.cpp.obj: CXX_COMPILER__cpp3sem_unscanned_Debug D$:/MIPT/cpp3sem/main.cpp || cmake_object_order_depends_target_cpp3sem
   DEP_FILE = CMakeFiles\cpp3sem.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\cpp3sem.dir
   OBJECT_FILE_DIR = CMakeFiles\cpp3sem.dir
 
@@ -84,7 +84,7 @@ build cmake_object_order_depends_target_HW1: phony || .
 
 build CMakeFiles/HW1.dir/08.09/HW1.cpp.obj: CXX_COMPILER__HW1_unscanned_Debug D$:/MIPT/cpp3sem/08.09/HW1.cpp || cmake_object_order_depends_target_HW1
   DEP_FILE = CMakeFiles\HW1.dir\08.09\HW1.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\HW1.dir
   OBJECT_FILE_DIR = CMakeFiles\HW1.dir\08.09
 
@@ -117,7 +117,7 @@ build cmake_object_order_depends_target_HW2_1: phony || .
 
 build CMakeFiles/HW2_1.dir/14.09/HW2_1.cpp.obj: CXX_COMPILER__HW2_1_unscanned_Debug D$:/MIPT/cpp3sem/14.09/HW2_1.cpp || cmake_object_order_depends_target_HW2_1
   DEP_FILE = CMakeFiles\HW2_1.dir\14.09\HW2_1.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\HW2_1.dir
   OBJECT_FILE_DIR = CMakeFiles\HW2_1.dir\14.09
 
@@ -150,7 +150,7 @@ build cmake_object_order_depends_target_HW2_2: phony || .
 
 build CMakeFiles/HW2_2.dir/14.09/HW2_2.cpp.obj: CXX_COMPILER__HW2_2_unscanned_Debug D$:/MIPT/cpp3sem/14.09/HW2_2.cpp || cmake_object_order_depends_target_HW2_2
   DEP_FILE = CMakeFiles\HW2_2.dir\14.09\HW2_2.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\HW2_2.dir
   OBJECT_FILE_DIR = CMakeFiles\HW2_2.dir\14.09
 
@@ -183,7 +183,7 @@ build cmake_object_order_depends_target_HW2_3: phony || .
 
 build CMakeFiles/HW2_3.dir/14.09/HW2_3.cpp.obj: CXX_COMPILER__HW2_3_unscanned_Debug D$:/MIPT/cpp3sem/14.09/HW2_3.cpp || cmake_object_order_depends_target_HW2_3
   DEP_FILE = CMakeFiles\HW2_3.dir\14.09\HW2_3.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\HW2_3.dir
   OBJECT_FILE_DIR = CMakeFiles\HW2_3.dir\14.09
 
@@ -216,7 +216,7 @@ build cmake_object_order_depends_target_HW2_4: phony || .
 
 build CMakeFiles/HW2_4.dir/14.09/HW2_4.cpp.obj: CXX_COMPILER__HW2_4_unscanned_Debug D$:/MIPT/cpp3sem/14.09/HW2_4.cpp || cmake_object_order_depends_target_HW2_4
   DEP_FILE = CMakeFiles\HW2_4.dir\14.09\HW2_4.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\HW2_4.dir
   OBJECT_FILE_DIR = CMakeFiles\HW2_4.dir\14.09
 
@@ -249,7 +249,7 @@ build cmake_object_order_depends_target_HW3_1: phony || .
 
 build CMakeFiles/HW3_1.dir/13.10/HW3_1.cpp.obj: CXX_COMPILER__HW3_1_unscanned_Debug D$:/MIPT/cpp3sem/13.10/HW3_1.cpp || cmake_object_order_depends_target_HW3_1
   DEP_FILE = CMakeFiles\HW3_1.dir\13.10\HW3_1.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\HW3_1.dir
   OBJECT_FILE_DIR = CMakeFiles\HW3_1.dir\13.10
 
@@ -282,7 +282,7 @@ build cmake_object_order_depends_target_HW3_2: phony || .
 
 build CMakeFiles/HW3_2.dir/13.10/HW3_2.cpp.obj: CXX_COMPILER__HW3_2_unscanned_Debug D$:/MIPT/cpp3sem/13.10/HW3_2.cpp || cmake_object_order_depends_target_HW3_2
   DEP_FILE = CMakeFiles\HW3_2.dir\13.10\HW3_2.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\HW3_2.dir
   OBJECT_FILE_DIR = CMakeFiles\HW3_2.dir\13.10
 
@@ -315,7 +315,7 @@ build cmake_object_order_depends_target_HW4_1: phony || .
 
 build CMakeFiles/HW4_1.dir/13.10/HW4_1.cpp.obj: CXX_COMPILER__HW4_1_unscanned_Debug D$:/MIPT/cpp3sem/13.10/HW4_1.cpp || cmake_object_order_depends_target_HW4_1
   DEP_FILE = CMakeFiles\HW4_1.dir\13.10\HW4_1.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\HW4_1.dir
   OBJECT_FILE_DIR = CMakeFiles\HW4_1.dir\13.10
 
@@ -348,7 +348,7 @@ build cmake_object_order_depends_target_HW4_2: phony || .
 
 build CMakeFiles/HW4_2.dir/13.10/HW4_2.cpp.obj: CXX_COMPILER__HW4_2_unscanned_Debug D$:/MIPT/cpp3sem/13.10/HW4_2.cpp || cmake_object_order_depends_target_HW4_2
   DEP_FILE = CMakeFiles\HW4_2.dir\13.10\HW4_2.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\HW4_2.dir
   OBJECT_FILE_DIR = CMakeFiles\HW4_2.dir\13.10
 
@@ -381,7 +381,7 @@ build cmake_object_order_depends_target_HW5: phony || .
 
 build CMakeFiles/HW5.dir/20.10/HW5.cpp.obj: CXX_COMPILER__HW5_unscanned_Debug D$:/MIPT/cpp3sem/20.10/HW5.cpp || cmake_object_order_depends_target_HW5
   DEP_FILE = CMakeFiles\HW5.dir\20.10\HW5.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\HW5.dir
   OBJECT_FILE_DIR = CMakeFiles\HW5.dir\20.10
 
@@ -414,7 +414,7 @@ build cmake_object_order_depends_target_HW6: phony || .
 
 build CMakeFiles/HW6.dir/6.11/HW6.cpp.obj: CXX_COMPILER__HW6_unscanned_Debug D$:/MIPT/cpp3sem/6.11/HW6.cpp || cmake_object_order_depends_target_HW6
   DEP_FILE = CMakeFiles\HW6.dir\6.11\HW6.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\HW6.dir
   OBJECT_FILE_DIR = CMakeFiles\HW6.dir\6.11
 
@@ -447,7 +447,7 @@ build cmake_object_order_depends_target_HW7: phony || .
 
 build CMakeFiles/HW7.dir/02.12/HW7.cpp.obj: CXX_COMPILER__HW7_unscanned_Debug D$:/MIPT/cpp3sem/02.12/HW7.cpp || cmake_object_order_depends_target_HW7
   DEP_FILE = CMakeFiles\HW7.dir\02.12\HW7.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\HW7.dir
   OBJECT_FILE_DIR = CMakeFiles\HW7.dir\02.12
 
@@ -480,7 +480,7 @@ build cmake_object_order_depends_target_Project: phony || .
 
 build CMakeFiles/Project.dir/Project/Final.cpp.obj: CXX_COMPILER__Project_unscanned_Debug D$:/MIPT/cpp3sem/Project/Final.cpp || cmake_object_order_depends_target_Project
   DEP_FILE = CMakeFiles\Project.dir\Project\Final.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Project.dir
   OBJECT_FILE_DIR = CMakeFiles\Project.dir\Project
 
@@ -513,7 +513,7 @@ build cmake_object_order_depends_target_lab2_1.1: phony || .
 
 build CMakeFiles/lab2_1.1.dir/sem2/lab2/1.1.cpp.obj: CXX_COMPILER__lab2_1.2e1_unscanned_Debug D$:/MIPT/cpp3sem/sem2/lab2/1.1.cpp || cmake_object_order_depends_target_lab2_1.1
   DEP_FILE = CMakeFiles\lab2_1.1.dir\sem2\lab2\1.1.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\lab2_1.1.dir
   OBJECT_FILE_DIR = CMakeFiles\lab2_1.1.dir\sem2\lab2
 
@@ -546,7 +546,7 @@ build cmake_object_order_depends_target_lab2_1.2: phony || .
 
 build CMakeFiles/lab2_1.2.dir/sem2/lab2/1.2.cpp.obj: CXX_COMPILER__lab2_1.2e2_unscanned_Debug D$:/MIPT/cpp3sem/sem2/lab2/1.2.cpp || cmake_object_order_depends_target_lab2_1.2
   DEP_FILE = CMakeFiles\lab2_1.2.dir\sem2\lab2\1.2.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\lab2_1.2.dir
   OBJECT_FILE_DIR = CMakeFiles\lab2_1.2.dir\sem2\lab2
 
@@ -579,7 +579,7 @@ build cmake_object_order_depends_target_lab2_2: phony || .
 
 build CMakeFiles/lab2_2.dir/sem2/lab2/2.cpp.obj: CXX_COMPILER__lab2_2_unscanned_Debug D$:/MIPT/cpp3sem/sem2/lab2/2.cpp || cmake_object_order_depends_target_lab2_2
   DEP_FILE = CMakeFiles\lab2_2.dir\sem2\lab2\2.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\lab2_2.dir
   OBJECT_FILE_DIR = CMakeFiles\lab2_2.dir\sem2\lab2
 
@@ -602,6 +602,39 @@ build lab2_2.exe: CXX_EXECUTABLE_LINKER__lab2_2_Debug CMakeFiles/lab2_2.dir/sem2
   TARGET_PDB = lab2_2.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target lab2_3.1
+
+
+#############################################
+# Order-only phony target for lab2_3.1
+
+build cmake_object_order_depends_target_lab2_3.1: phony || .
+
+build CMakeFiles/lab2_3.1.dir/sem2/lab2/3.1.cpp.obj: CXX_COMPILER__lab2_3.2e1_unscanned_Debug D$:/MIPT/cpp3sem/sem2/lab2/3.1.cpp || cmake_object_order_depends_target_lab2_3.1
+  DEP_FILE = CMakeFiles\lab2_3.1.dir\sem2\lab2\3.1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab2_3.1.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab2_3.1.dir\sem2\lab2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab2_3.1
+
+
+#############################################
+# Link the executable lab2_3.1.exe
+
+build lab2_3.1.exe: CXX_EXECUTABLE_LINKER__lab2_3.2e1_Debug CMakeFiles/lab2_3.1.dir/sem2/lab2/3.1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab2_3.1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab2_3.1.exe
+  TARGET_IMPLIB = liblab2_3.1.dll.a
+  TARGET_PDB = lab2_3.1.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target lab2_3.2
 
 
@@ -612,7 +645,7 @@ build cmake_object_order_depends_target_lab2_3.2: phony || .
 
 build CMakeFiles/lab2_3.2.dir/sem2/lab2/3.2.cpp.obj: CXX_COMPILER__lab2_3.2e2_unscanned_Debug D$:/MIPT/cpp3sem/sem2/lab2/3.2.cpp || cmake_object_order_depends_target_lab2_3.2
   DEP_FILE = CMakeFiles\lab2_3.2.dir\sem2\lab2\3.2.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\lab2_3.2.dir
   OBJECT_FILE_DIR = CMakeFiles\lab2_3.2.dir\sem2\lab2
 
@@ -645,7 +678,7 @@ build cmake_object_order_depends_target_lab2_4.1: phony || .
 
 build CMakeFiles/lab2_4.1.dir/sem2/lab2/4.1.cpp.obj: CXX_COMPILER__lab2_4.2e1_unscanned_Debug D$:/MIPT/cpp3sem/sem2/lab2/4.1.cpp || cmake_object_order_depends_target_lab2_4.1
   DEP_FILE = CMakeFiles\lab2_4.1.dir\sem2\lab2\4.1.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\lab2_4.1.dir
   OBJECT_FILE_DIR = CMakeFiles\lab2_4.1.dir\sem2\lab2
 
@@ -678,7 +711,7 @@ build cmake_object_order_depends_target_lab2_4.2: phony || .
 
 build CMakeFiles/lab2_4.2.dir/sem2/lab2/4.2.cpp.obj: CXX_COMPILER__lab2_4.2e2_unscanned_Debug D$:/MIPT/cpp3sem/sem2/lab2/4.2.cpp || cmake_object_order_depends_target_lab2_4.2
   DEP_FILE = CMakeFiles\lab2_4.2.dir\sem2\lab2\4.2.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\lab2_4.2.dir
   OBJECT_FILE_DIR = CMakeFiles\lab2_4.2.dir\sem2\lab2
 
@@ -760,6 +793,8 @@ build lab2_1.2: phony lab2_1.2.exe
 
 build lab2_2: phony lab2_2.exe
 
+build lab2_3.1: phony lab2_3.1.exe
+
 build lab2_3.2: phony lab2_3.2.exe
 
 build lab2_4.1: phony lab2_4.1.exe
@@ -774,7 +809,7 @@ build lab2_4.2: phony lab2_4.2.exe
 #############################################
 # Folder: D:/MIPT/cpp3sem/cmake-build-debug
 
-build all: phony cpp3sem.exe HW1.exe HW2_1.exe HW2_2.exe HW2_3.exe HW2_4.exe HW3_1.exe HW3_2.exe HW4_1.exe HW4_2.exe HW5.exe HW6.exe HW7.exe Project.exe lab2_1.1.exe lab2_1.2.exe lab2_2.exe lab2_3.2.exe lab2_4.1.exe lab2_4.2.exe
+build all: phony cpp3sem.exe HW1.exe HW2_1.exe HW2_2.exe HW2_3.exe HW2_4.exe HW3_1.exe HW3_2.exe HW4_1.exe HW4_2.exe HW5.exe HW6.exe HW7.exe Project.exe lab2_1.1.exe lab2_1.2.exe lab2_2.exe lab2_3.1.exe lab2_3.2.exe lab2_4.1.exe lab2_4.2.exe
 
 # =============================================================================
 # Built-in targets

@@ -15,6 +15,7 @@ D:/MIPT/cpp3sem/cmake-build-debug/CMakeFiles/Project.dir
 D:/MIPT/cpp3sem/cmake-build-debug/CMakeFiles/lab2_1.1.dir
 D:/MIPT/cpp3sem/cmake-build-debug/CMakeFiles/lab2_1.2.dir
 D:/MIPT/cpp3sem/cmake-build-debug/CMakeFiles/lab2_2.dir
+D:/MIPT/cpp3sem/cmake-build-debug/CMakeFiles/lab2_3.1.dir
 D:/MIPT/cpp3sem/cmake-build-debug/CMakeFiles/lab2_3.2.dir
 D:/MIPT/cpp3sem/cmake-build-debug/CMakeFiles/lab2_4.1.dir
 D:/MIPT/cpp3sem/cmake-build-debug/CMakeFiles/lab2_4.2.dir
